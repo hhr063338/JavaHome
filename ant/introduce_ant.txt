@@ -1,0 +1,5 @@
+###################################
+##介绍ant目录说明
+build.xml  用来编译java文件获取class字节码文件
+build2.xml  用来执行java程序
+build3.xml  用来打包jar

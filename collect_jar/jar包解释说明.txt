@@ -1,0 +1,2 @@
+=============
+导入import org.apache.commons.beanutils.*的类，在commons-beanutils-1.7.0.jar

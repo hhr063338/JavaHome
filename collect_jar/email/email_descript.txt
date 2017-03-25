@@ -1,0 +1,3 @@
+1.javamail1_4_7.zip是在
+	http://www.oracle.com/technetwork/java/javamail/index-138643.html下载的
+	通过javamail进行邮件发送时，需要其中的email.jar

@@ -1,0 +1,16 @@
+============================================
+//iText-2.1.6.jar包是一款开源小巧的pdf工具，生成pdf文档
+============================================
+//jsp-api.jar 和 servlet-api.jar 是在tomcat服务器lib文件夹下
+javax.servlet.http.HttpServletRequest是javax.servlet.http下的一个类,
+要像用它，必须要继承javax.servlet和javax.servlet.http两个包,
+把jsp-api ,servlet-api放到项目中的web-inf/lib目录下即可(同时这两个包也是JSP开发必须要的)
+
+============================================
+//生成excel文档的工具包
+jxl.jar   poi-3.0.1.jar
+============================================
+//使用hibernate框架必须导入的jar包(本项目以hibernate3.4为主)+log日志包：
+antlr-2.7.6.jar   commons-collections-3.1.jar  dom4j-1.6.1.jar
+ejb3-persistence.jar	hibernate3.jar  hibernate-annotations.jar  hibernate-commons-annotations.jar
+javassist-3.9.0.GA.jar  jta-1.1.jar  log4j-1.2.15.jar  slf4j-api-1.5.8.jar  slf4j-log4j12-1.5.8.jar

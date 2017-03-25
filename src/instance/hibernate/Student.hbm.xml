@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.hibernate">
+	<class name="Student" >
+		<id name="id" column="id">
+		</id>
+		<property name="name" column="name" ></property>
+		<property name="age"></property>
+	</class>
+</hibernate-mapping>
+<!-- 下面是一个简单的示例 -->
+<!-- <hibernate-mapping package="org.hibernate.tutorial.domain"> 打开类所在的包
+
+    <class name="Event" table="EVENTS"> 对应类名，假如类名与表名一样，则可以省略table属性
+        <id name="id" column="EVENT_ID"> id标签指主键的意思，属性与字段的名字一样，则可以省略column属性
+            <generator class="native"/>
+        </id>
+        <property name="date" type="timestamp" column="EVENT_DATE"/>
+        <property name="title"/>
+    </class>
+
+</hibernate-mapping> -->
